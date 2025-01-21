@@ -1,29 +1,58 @@
+# **📊 Predicción de Pedidos de Taxis para Sweet Lift Taxi**
+
+## **Descripción del Proyecto**  
+Sweet Lift Taxi ha recopilado datos históricos sobre pedidos de taxis en los aeropuertos. Con el objetivo de atraer a más conductores durante las horas pico, este proyecto desarrolla un modelo predictivo para estimar el número de pedidos de taxis para la próxima hora. El modelo cumple con la métrica objetivo de **RMSE ≤ 48** en el conjunto de prueba.
+
 ---
 
-### **Predicción de Pedidos de Taxis para Sweet Lift Taxi**  
-- **Descripción:**  
-  Desarrollo de un modelo predictivo para estimar el número de pedidos de taxis por hora basado en datos históricos de la compañía **Sweet Lift Taxi**.  
-  Este modelo ayudará a atraer más conductores durante las horas pico, mejorando la satisfacción del cliente y optimizando los recursos operativos.
+## **Propósito del Proyecto**  
+Predecir la cantidad de pedidos de taxis por hora para mejorar la disponibilidad de conductores durante las horas pico. Esto optimizará la planificación operativa, reducirá los tiempos de espera para los clientes y aumentará la eficiencia del servicio.
 
-- **Acciones Realizadas:**  
-  - **Análisis Exploratorio:** Identificación de patrones de tendencia y estacionalidad en la serie temporal.  
-  - **Remuestreo Temporal:** Conversión de datos a intervalos de una hora y generación de características como año, mes, día, hora y día de la semana.  
-  - **Entrenamiento de Modelos:** Comparación de modelos como **Regresión Lineal**, **Árboles de Decisión** y **Bosques Aleatorios**.  
-  - **Métrica Clave:** Cumplimiento del objetivo de RMSE ≤ 48 en el conjunto de prueba.
+---
 
-- **Resultados:**  
-  - **Modelo Final:** Bosque Aleatorio con un RMSE de 45.58 en el conjunto de prueba.  
-  - El modelo capta eficientemente los patrones estacionales y las fluctuaciones en la demanda.
+## **Acciones Realizadas**
+1. **Carga y Exploración de Datos:**
+   - Remuestreo de datos a intervalos de una hora.
+   - Creación de características de calendario como año, mes, día, hora y día de la semana.
 
-- **Tecnologías Utilizadas:**  
-  ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-  ![Scikit-learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-  ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-  ![Seaborn](https://img.shields.io/badge/-Seaborn-4c8cbf?style=for-the-badge)
+2. **Análisis Exploratorio:**
+   - Identificación de tendencias, estacionalidad y patrones en los datos históricos.
+   - Visualización de la serie temporal y análisis de residuos.
 
-- **Impacto:**  
-  - Mejora de la planificación operativa en tiempo real para satisfacer la demanda de taxis en aeropuertos.  
-  - Reducción de tiempos de espera para los clientes durante las horas pico.
+3. **Entrenamiento de Modelos:**
+   - Comparación de modelos de **Regresión Lineal**, **Árbol de Decisión** y **Bosque Aleatorio**.
+   - Ajuste de hiperparámetros para optimizar el rendimiento.
+
+4. **Evaluación de Desempeño:**
+   - Métrica clave: **RMSE en el conjunto de prueba**.
+   - Selección del modelo final basado en precisión y velocidad.
+
+---
+
+## **Resultados**
+- **Modelo Final:** Bosque Aleatorio.  
+  - **RMSE en el conjunto de prueba:** 45.58 (cumple con el objetivo de RMSE ≤ 48).  
+  - Capacidad para capturar patrones estacionales y fluctuaciones en la demanda.
+
+---
+
+## **Tecnologías Utilizadas**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/-Seaborn-4c8cbf?style=for-the-badge)
+
+---
+
+## **Impacto**
+- **Optimización Operativa:** Planificación eficiente para satisfacer la demanda durante las horas pico.  
+- **Mejora de la Experiencia del Cliente:** Reducción de tiempos de espera para los usuarios.  
+- **Soporte Estratégico:** Proporciona una herramienta predictiva que puede integrarse en sistemas de gestión operativa.
+
+---
+
+## **Repositorio del Proyecto**  
+📍 [Accede al repositorio aquí](https://github.com/MiguelMoc1/prediccion-pedidos-taxis)
 
 ---
