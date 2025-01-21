@@ -52,7 +52,3 @@ Predecir la cantidad de pedidos de taxis por hora para mejorar la disponibilidad
 
 ---
 
-## **Repositorio del Proyecto**  
-📍 [Accede al repositorio aquí](https://github.com/MiguelMoc1/prediccion-pedidos-taxis)
-
----
